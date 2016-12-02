@@ -1,4 +1,4 @@
-// File name: caesars_cypher.c
+// File name: caesars_cipher.c
 // Author: Zachary Conlyn
 // Date: December 2nd, 2016
 // Class: CMSC 412
