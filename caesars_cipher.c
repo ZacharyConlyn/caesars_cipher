@@ -52,6 +52,7 @@ void encrypt (char *str, int offset) {
     i++;
   }
   putchar('\n');
+  exit(EXIT_SUCCESS);
 }
 
 int convert_offset (char *s) {
