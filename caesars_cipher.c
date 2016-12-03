@@ -33,16 +33,16 @@ void encrypt (char *str, int offset) {
   while (*p && (i < MAX_LENGTH)) {
     // if p is uppercase:
     if (*p >= 'A' && *p <= 'Z') {
-      tmp = *p - 65;
+      tmp = *p - 'A';
       tmp = tmp + offset;
       tmp = tmp % 26;
-      tmp += 65;
+      tmp += 'A';
       // if p is lowercase:
     } else if (*p >= 'a' && *p <= 'z') {
-      tmp = *p - 97;
+      tmp = *p - 'a';
       tmp = tmp + offset;
       tmp = tmp % 26;
-      tmp += 97;
+      tmp += 'a';
       // if p is neither upper nor lowercase, do nothing
     } else {
       tmp = *p;
