@@ -49,6 +49,7 @@ void encrypt (char *str, int offset) {
     }
     putchar(tmp);
     p++;
+	i++;
   }
   putchar('\n');
 }
