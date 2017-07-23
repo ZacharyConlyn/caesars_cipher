@@ -1,9 +1,8 @@
 // File name: caesars_cipher.c
 // Author: Zachary Conlyn
 // Date: December 2nd, 2016
-// Class: CMSC 412
-// Purpose: to encrypt ASCII or Unicode strings
-// with Caesar's cypher
+// Purpose: to encrypt ASCII or Unicode
+// strings with Caesar's cypher
 
 #include <stdio.h>
 #include <stdlib.h>
