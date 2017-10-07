@@ -2,7 +2,7 @@
 // Author: Zachary Conlyn
 // Date: December 2nd, 2016
 // Purpose: to encrypt ASCII or Unicode
-// strings with Caesar's cypher
+// strings with Caesar's cipher
 
 #include <stdio.h>
 #include <stdlib.h>
