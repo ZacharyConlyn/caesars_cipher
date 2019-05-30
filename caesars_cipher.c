@@ -59,8 +59,7 @@ int convert_offset (char *s) {
 		// check for valid input
 		fprintf(stderr, "Warning: offset is 0 or not an integer.\n");
 	} else if (offset > 25 || offset < -25) {
-		fprintf(stderr, "Warning: offset not between -25 and 25. ");
-		fprintf(stderr, "Converting offset to smaller number.\n");
+		fprintf(stderr, "Warning: offset not between -25 and 25.\n");
 		offset = offset % 26;
 	}
 	// convert negative offsets to positive
