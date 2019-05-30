@@ -1,7 +1,7 @@
 // File name: caesars_cipher.c
 // Author: Zachary Conlyn
 // Date: December 2nd, 2016
-// Purpose: to encrypt ASCII or Unicode
+// Purpose: to encrypt ASCII
 // strings with Caesar's cipher
 
 #include <stdio.h>
